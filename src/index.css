@@ -58,6 +58,8 @@ input[type="date"] {
   max-width: 100%;
   width: 100% !important;
   min-width: 0 !important;
+  height: 48px !important;
+  min-height: 48px !important;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
   filter: invert(0.6);

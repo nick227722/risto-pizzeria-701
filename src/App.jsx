@@ -1007,10 +1007,8 @@ function Booking() {
 
           {/* Data */}
           <BookingField label="Data">
-            <div style={{ overflow: 'hidden', borderRadius: '1rem' }}>
-              <input type="date" value={f.date} onChange={set('date')} min={today}
-                style={{ ...inputStyle, borderRadius: '1rem', WebkitAppearance: 'none', appearance: 'none' }} />
-            </div>
+            <input type="date" value={f.date} onChange={set('date')} min={today}
+              style={{ ...inputStyle, WebkitAppearance: 'none', appearance: 'none', height: '48px' }} />
           </BookingField>
 
           {/* Pranzo / Cena */}
